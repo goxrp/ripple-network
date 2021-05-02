@@ -33,11 +33,11 @@ $ curl -H 'Content-Type: application/json' -d '{"method":"server_info"}' https:/
 $ curl -H 'Content-Type: application/json' -d '{"method":"server_info"}' https://s.devnet.rippletest.net:51234/ --insecure
 ```
 
- [build-status-svg]: https://github.com/wecoinshq/ripple-network/workflows/build/badge.svg?branch=master
- [build-status-url]: https://github.com/wecoinshq/ripple-network/actions
- [goreport-svg]: https://goreportcard.com/badge/github.com/wecoinshq/ripple-network
- [goreport-url]: https://goreportcard.com/report/github.com/wecoinshq/ripple-network
- [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/wecoinshq/ripple-network
- [docs-godoc-url]: https://pkg.go.dev/github.com/wecoinshq/ripple-network
+ [build-status-svg]: https://github.com/go-xrpl/ripple-network/workflows/build/badge.svg?branch=master
+ [build-status-url]: https://github.com/go-xrpl/ripple-network/actions
+ [goreport-svg]: https://goreportcard.com/badge/github.com/go-xrpl/ripple-network
+ [goreport-url]: https://goreportcard.com/report/github.com/go-xrpl/ripple-network
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/go-xrpl/ripple-network
+ [docs-godoc-url]: https://pkg.go.dev/github.com/go-xrpl/ripple-network
  [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
- [license-url]: https://github.com/wecoinshq/ripple-network/blob/master/LICENSE
+ [license-url]: https://github.com/go-xrpl/ripple-network/blob/master/LICENSE
