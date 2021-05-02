@@ -1,4 +1,4 @@
-module github.com/wecoinshq/ripple-network
+module github.com/go-xrpl/ripple-network
 
 go 1.13
 
