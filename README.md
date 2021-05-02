@@ -1,3 +1,5 @@
+<img align="right" width="200" src="https://s2.coinmarketcap.com/static/img/coins/200x200/52.png" />
+
 # Ripple Network
 
 [![Build Status][build-status-svg]][build-status-url]
