@@ -28,6 +28,13 @@ func Gateways() []Account {
 			CoinistURL: "https://coinist.co/ripple/gateways/coinex/",
 		},
 		{
+			Name:        "Devcoin",
+			Description: "emfox (https://bitcointalk.org/index.php?action=profile;u=87884). 10 DVC redemption fee (cost of devcoin transaction fee)",
+			Address:     "r3gHXhK1pwZFG9ESiaosxjufEVQjwGuJUd",
+			URL:         "http://ripple.d.evco.in/",
+			FeesURL:     "https://www.dividendrippler.com/fees",
+		},
+		{
 			Name:    "Dividend Rippler",
 			Address: "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX",
 			URL:     "https://www.dividendrippler.com/",
@@ -62,6 +69,11 @@ func Gateways() []Account {
 			Name:    "RippleChina",
 			Address: "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
 			URL:     "http://wg.iripplechina.com/",
+		},
+		{
+			Name:    "RippleCN",
+			Address: "rnuF96W4SZoCJmbHYBFoJZpR8eCaxNvekK",
+			URL:     "http://ripplecn.com/gateway/",
 		},
 		{
 			Name:    "RippleFund",

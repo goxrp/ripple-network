@@ -12,6 +12,13 @@
     "coinistURL": "https://coinist.co/ripple/gateways/coinex/"
   },
   {
+    "name": "Devcoin",
+    "description": "emfox (https://bitcointalk.org/index.php?action=profile;u=87884). 10 DVC redemption fee (cost of devcoin transaction fee)",
+    "address": "r3gHXhK1pwZFG9ESiaosxjufEVQjwGuJUd",
+    "url": "http://ripple.d.evco.in/",
+    "feesURL": "https://www.dividendrippler.com/fees"
+  },
+  {
     "name": "Dividend Rippler",
     "address": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX",
     "url": "https://www.dividendrippler.com/",
@@ -46,6 +53,11 @@
     "name": "RippleChina",
     "address": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
     "url": "http://wg.iripplechina.com/"
+  },
+  {
+    "name": "RippleCN",
+    "address": "rnuF96W4SZoCJmbHYBFoJZpR8eCaxNvekK",
+    "url": "http://ripplecn.com/gateway/"
   },
   {
     "name": "RippleFund",
