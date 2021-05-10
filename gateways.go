@@ -41,6 +41,12 @@ func Gateways() []Account {
 			FeesURL: "https://www.dividendrippler.com/fees",
 		},
 		{
+			Name:        "Goodwill LETS",
+			Description: "Bob \"Red\" Way",
+			Address:     "rGDWKWni6exeneJdNbEZ3nVX3Rrw5VG1p1",
+			URL:         "https://ripple.com/forum/viewtopic.php?f=1&t=2895",
+		},
+		{
 			Name:    "ICE",
 			Address: "r4H3F9dDaYPFwbrUsusvNAHLz2sEZk4wE5",
 			URL:     "https://ripple.com/forum/viewtopic.php?f=1&t=3958",
