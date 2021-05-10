@@ -18,6 +18,11 @@
     "feesURL": "https://www.dividendrippler.com/fees"
   },
   {
+    "name": "ICE",
+    "address": "r4H3F9dDaYPFwbrUsusvNAHLz2sEZk4wE5",
+    "url": "https://ripple.com/forum/viewtopic.php?f=1\u0026t=3958"
+  },
+  {
     "name": "Justcoin",
     "address": "rJHygWcTLVpSXkowott6kzgZU6viQSVYM1",
     "url": "https://justcoin.com/"
@@ -48,6 +53,12 @@
     "url": "http://ripplefund.me/"
   },
   {
+    "name": "SnapSwap",
+    "description": "https://btc2ripple.com/",
+    "address": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q",
+    "url": "https://www.snapswap.us/"
+  },
+  {
     "name": "TTBit",
     "address": "rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E",
     "url": "https://bitcointalk.org/index.php?topic=149533.0"
@@ -56,5 +67,11 @@
     "name": "WisePass",
     "address": "rPDXxSZcuVL3ZWoyU82bcde3zwvmShkRyF",
     "url": "https://wisepass.com/"
+  },
+  {
+    "name": "XRP Interchange",
+    "description": "deweller/wellerco https://xrptalk.org/user/803-deweller/, https://bitcointalk.org/index.php?action=profile;u=155537",
+    "address": "rEUNavLM2NPpLW8dKqk3BRhXcZk5Hv7dhj",
+    "url": "http://xrpio.com/"
   }
 ]
