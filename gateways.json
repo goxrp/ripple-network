@@ -1,0 +1,60 @@
+[
+  {
+    "name": "Bitstamp",
+    "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+    "url": "https://www.bitstamp.net/"
+  },
+  {
+    "name": "Coinex",
+    "address": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc",
+    "url": "http://www.coinex.co.nz",
+    "feesURL": "https://www.coinex.co.nz/Fees",
+    "coinistURL": "https://coinist.co/ripple/gateways/coinex/"
+  },
+  {
+    "name": "Dividend Rippler",
+    "address": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX",
+    "url": "https://www.dividendrippler.com/",
+    "feesURL": "https://www.dividendrippler.com/fees"
+  },
+  {
+    "name": "Justcoin",
+    "address": "rJHygWcTLVpSXkowott6kzgZU6viQSVYM1",
+    "url": "https://justcoin.com/"
+  },
+  {
+    "name": "Peercover",
+    "address": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV",
+    "url": "https://www.peercover.com/"
+  },
+  {
+    "name": "Ripple Israel",
+    "address": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9",
+    "url": "http://rippleisrael.co.il/"
+  },
+  {
+    "name": "Ripple Union",
+    "address": "r3ADD8kXSUKHd6zTCKfnKT3zV9EZHjzp1S",
+    "url": "http://rippleunion.com/"
+  },
+  {
+    "name": "RippleChina",
+    "address": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+    "url": "http://wg.iripplechina.com/"
+  },
+  {
+    "name": "RippleFund",
+    "address": "rE7CNMbxwvTQrqSEjbcXCrqeN6EZga1ApU",
+    "url": "http://ripplefund.me/"
+  },
+  {
+    "name": "TTBit",
+    "address": "rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E",
+    "url": "https://bitcointalk.org/index.php?topic=149533.0"
+  },
+  {
+    "name": "WisePass",
+    "address": "rPDXxSZcuVL3ZWoyU82bcde3zwvmShkRyF",
+    "url": "https://wisepass.com/"
+  }
+]
