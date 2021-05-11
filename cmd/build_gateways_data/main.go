@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 
-	ripplenetwork "github.com/go-xrp/ripple-network"
+	ripplenetwork "github.com/goxrp/ripple-network"
 )
 
 func main() {
