@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"io/ioutil"
 	"log"
+	"time"
 
 	ripplenetwork "github.com/goxrp/ripple-network"
 )
@@ -18,7 +19,10 @@ func main() {
 		}
 		gateways[i] = gw
 	}
-	bytes, err := json.MarshalIndent(gateways, "", "  ")
+	gwSet := ripplenetwork.GatewaysSet{
+		Gateways:    gateways,
+		TimeCreated: time.Now().UTC()}
+	bytes, err := json.MarshalIndent(gwSet, "", "  ")
 	if err != nil {
 		log.Fatal(err)
 	}

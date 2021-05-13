@@ -57,6 +57,11 @@ func (acct *Account) LoadAccountRoot() error {
 // https://bitcointalk.org/index.php?topic=155236.msg1646402#msg1646402
 // https://coinist.co/ripple/gateways/
 
+type GatewaysSet struct {
+	TimeCreated time.Time `json:"timeCreated"`
+	Gateways    []Account `json:"gateways"`
+}
+
 func Gateways() []Account {
 	return []Account{
 		{
