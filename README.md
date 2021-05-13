@@ -5,7 +5,11 @@
 [![Docs][docs-godoc-svg]][docs-godoc-url]
 [![License][license-svg]][license-url]
 
-This package provides a list of public Rippled servers.
+This package provides a list of public Rippled servers and Gateways.
+
+## Gateways
+
+Known gateways are listed in the [`gateways.json`](gateways.json). This is is built from online sources and periodically updated with AccountRoot info using the script in [`cmd/build_gateways_data/main.go`](cmd/build_gateways_data/main.go).
 
 ## Servers
 
