@@ -2,94 +2,336 @@
   {
     "name": "Bitstamp",
     "address": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
-    "url": "https://www.bitstamp.net/"
+    "url": "https://www.bitstamp.net/",
+    "accountRoot": {
+      "Account": "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
+      "Balance": "6545061077106",
+      "Domain": "6269747374616D702E6E6574",
+      "EmailHash": "5B33B93C7FFE384D53450FC666BB11FB",
+      "Flags": 9043968,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 397,
+      "PreviousTxnID": "E0A37673D0290324554955361FB6F0081375F9339FEBE6C0A8C15031F9F86A1B",
+      "PreviousTxnLgrSeq": 63533472,
+      "Sequence": 4477,
+      "TransferRate": 1002000000,
+      "index": "B7D526FDDF9E3B3F95C3DC97C353065B0482302500BBB8051A5C090B596C6133",
+      "urlgravatar": "http://www.gravatar.com/avatar/5b33b93c7ffe384d53450fc666bb11fb"
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:52.398252Z"
   },
   {
     "name": "Coinex",
     "address": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc",
     "url": "http://www.coinex.co.nz",
     "feesURL": "https://www.coinex.co.nz/Fees",
-    "coinistURL": "https://coinist.co/ripple/gateways/coinex/"
+    "coinistURL": "https://coinist.co/ripple/gateways/coinex/",
+    "accountRoot": {
+      "Account": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc",
+      "Balance": "72243065",
+      "Domain": "636F696E6578676174657761792E636F6D",
+      "EmailHash": "50ED6E21F41F1C380E9A671AFE1484F4",
+      "Flags": 10616832,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 2,
+      "PreviousTxnID": "E1D7BED22D3E59AB269B30896013CBF375C4A52F2B4F1AD0727B547BF9B02D3C",
+      "PreviousTxnLgrSeq": 63449984,
+      "Sequence": 93,
+      "index": "E93E8BC1E192CFD3B6ACC477FE7F9359447D99F7E1136EFFFD04AD8D92FB658A",
+      "urlgravatar": "http://www.gravatar.com/avatar/50ed6e21f41f1c380e9a671afe1484f4"
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:52.581938Z"
   },
   {
     "name": "Devcoin",
     "description": "emfox (https://bitcointalk.org/index.php?action=profile;u=87884). 10 DVC redemption fee (cost of devcoin transaction fee)",
     "address": "r3gHXhK1pwZFG9ESiaosxjufEVQjwGuJUd",
     "url": "http://ripple.d.evco.in/",
-    "feesURL": "https://www.dividendrippler.com/fees"
+    "feesURL": "https://www.dividendrippler.com/fees",
+    "accountRoot": {
+      "Account": "r3gHXhK1pwZFG9ESiaosxjufEVQjwGuJUd",
+      "Balance": "1232773934",
+      "Flags": 0,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 1,
+      "PreviousTxnID": "CBE23624BFE7709C8E9E282C61B2D3D7719C225E720F9CE1E871F79104F84C2E",
+      "PreviousTxnLgrSeq": 53532857,
+      "Sequence": 838104,
+      "index": "34D7F0641A0467BC06C748101789695A0F4A16BD68FC05984ED4E2185DECC8D7",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:52.87297Z"
   },
   {
     "name": "Dividend Rippler",
     "address": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX",
     "url": "https://www.dividendrippler.com/",
-    "feesURL": "https://www.dividendrippler.com/fees"
+    "feesURL": "https://www.dividendrippler.com/fees",
+    "accountRoot": {
+      "Account": "rfYv1TXnwgDDK4WQNbFALykYuEBnrR4pDX",
+      "Balance": "1335541372",
+      "Flags": 131072,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 798,
+      "PreviousTxnID": "A7F91E0BEBC6E276F3C1D72B78ED0D804A63E5CB81C537228AA046B76F439189",
+      "PreviousTxnLgrSeq": 63453116,
+      "Sequence": 7781,
+      "index": "EBAB8D915FD9E2C4CEE302BC0FE94DD626EF04EE3634C74788CD4A242D662866",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:52.964731Z"
   },
   {
     "name": "Goodwill LETS",
     "description": "Bob \"Red\" Way",
     "address": "rGDWKWni6exeneJdNbEZ3nVX3Rrw5VG1p1",
-    "url": "https://ripple.com/forum/viewtopic.php?f=1\u0026t=2895"
+    "url": "https://ripple.com/forum/viewtopic.php?f=1\u0026t=2895",
+    "accountRoot": {
+      "Account": "rGDWKWni6exeneJdNbEZ3nVX3Rrw5VG1p1",
+      "Balance": "9276728596",
+      "Flags": 2097152,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 97,
+      "PreviousTxnID": "F56E46B10BFC3C08AAEE3F0D07890F0867F8C6E414CF9F7A56843C409FCBC729",
+      "PreviousTxnLgrSeq": 62106035,
+      "Sequence": 216,
+      "index": "A56B415CB0B30CA99710099C34BBBED258DE51E902EE10C8FAC547FC2E072BFC",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:53.330948Z"
   },
   {
     "name": "ICE",
     "address": "r4H3F9dDaYPFwbrUsusvNAHLz2sEZk4wE5",
-    "url": "https://ripple.com/forum/viewtopic.php?f=1\u0026t=3958"
+    "url": "https://ripple.com/forum/viewtopic.php?f=1\u0026t=3958",
+    "accountRoot": {
+      "Account": "r4H3F9dDaYPFwbrUsusvNAHLz2sEZk4wE5",
+      "Balance": "44409862",
+      "Flags": 0,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 297,
+      "PreviousTxnID": "1D55DE1CAA06AFAA57B2B96F943AB668EE820B47FA6E876027D0840F8811F642",
+      "PreviousTxnLgrSeq": 63089376,
+      "Sequence": 15,
+      "index": "34716AEBCF2AC277F8B36952E700D22EA056DA2DA3C2CE4A49CD530903AB64E0",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:53.415444Z"
   },
   {
     "name": "Justcoin",
     "address": "rJHygWcTLVpSXkowott6kzgZU6viQSVYM1",
-    "url": "https://justcoin.com/"
+    "url": "https://justcoin.com/",
+    "accountRoot": {
+      "Account": "rJHygWcTLVpSXkowott6kzgZU6viQSVYM1",
+      "Balance": "1095152705",
+      "Domain": "736E6F77636F2E696E",
+      "EmailHash": "A4C78F7D554325DF86BC09D9A3F12E13",
+      "Flags": 131072,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 319,
+      "PreviousTxnID": "72063EAE1BAD94FF340F687380EB974CDD7E6EAA73B52527FD1E597C4BCBF16C",
+      "PreviousTxnLgrSeq": 63452779,
+      "Sequence": 12501,
+      "index": "F87A51649CB5BD6B27D72AD27B8DEF062EF05E5A430DA495488C736845AC4DC5",
+      "urlgravatar": "http://www.gravatar.com/avatar/a4c78f7d554325df86bc09d9a3f12e13"
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:53.686728Z"
   },
   {
     "name": "Peercover",
     "address": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV",
-    "url": "https://www.peercover.com/"
+    "url": "https://www.peercover.com/",
+    "accountRoot": {
+      "Account": "ra9eZxMbJrUcgV8ui7aPc161FgrqWScQxV",
+      "Balance": "1534000240",
+      "Flags": 0,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 444,
+      "PreviousTxnID": "9F5AC8A82761B4003FFF947BF992940A35215BB73AB88AA40B8D9246C3B57711",
+      "PreviousTxnLgrSeq": 63427845,
+      "Sequence": 1047,
+      "TransferRate": 1001000000,
+      "index": "EDD13DB54B62E013FB614977F5BE35F28C23E911E1EC2265E686A52D68879B1C",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:53.864881Z"
   },
   {
     "name": "Ripple Israel",
     "address": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9",
-    "url": "http://rippleisrael.co.il/"
+    "url": "http://rippleisrael.co.il/",
+    "accountRoot": {
+      "Account": "rNPRNzBB92BVpAhhZr4iXDTveCgV5Pofm9",
+      "Balance": "3403102814",
+      "Domain": "706179726F757465732E636F6D",
+      "Flags": 131072,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 221,
+      "PreviousTxnID": "79BBEEBC48393142386F4E54E28FF0FFEEA405CE90C262A43A41AF67537C2A25",
+      "PreviousTxnLgrSeq": 63473800,
+      "Sequence": 837,
+      "TransferRate": 1002000000,
+      "index": "5E0B31A7AE31E6B657592B953C163271323F46B0AA2D13ED4FED502961078B5A",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:54.118225Z"
   },
   {
     "name": "Ripple Union",
     "address": "r3ADD8kXSUKHd6zTCKfnKT3zV9EZHjzp1S",
-    "url": "http://rippleunion.com/"
+    "url": "http://rippleunion.com/",
+    "accountRoot": {
+      "Account": "r3ADD8kXSUKHd6zTCKfnKT3zV9EZHjzp1S",
+      "Balance": "98998888",
+      "Domain": "70726563696F757377616C6C65742E696F",
+      "EmailHash": "25471325BB08C85DBC865E9F53D02FE0",
+      "Flags": 0,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 46,
+      "PreviousTxnID": "2DB770D82E54CA05E05B5CD281442F4E7D7F72D78F68597DE7FC5E599C041333",
+      "PreviousTxnLgrSeq": 63412512,
+      "Sequence": 4433,
+      "TickSize": 4,
+      "index": "91FB2B3CE1F8204A989B0BDF65F757044F5E7F623DBDAF3CFAC9867A2F4A214E",
+      "urlgravatar": "http://www.gravatar.com/avatar/25471325bb08c85dbc865e9f53d02fe0"
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:54.203754Z"
   },
   {
     "name": "RippleChina",
     "address": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
-    "url": "http://wg.iripplechina.com/"
+    "url": "http://wg.iripplechina.com/",
+    "accountRoot": {
+      "Account": "razqQKzJRdB4UxFPWf5NEpEG3WMkmwgcXA",
+      "Balance": "9831399546",
+      "Flags": 8388608,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 63,
+      "PreviousTxnID": "F4C4941A41EE2A8D3A6AC4BBA756CFF0B0D22AD2713041DA48B3E745BE31F70E",
+      "PreviousTxnLgrSeq": 63533046,
+      "Sequence": 776,
+      "index": "D9A4529146AB12ABD244CCC0ED0523CF5C6BA97043999AB27C1D4EB567929069",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:54.479367Z"
   },
   {
     "name": "RippleCN",
     "address": "rnuF96W4SZoCJmbHYBFoJZpR8eCaxNvekK",
-    "url": "http://ripplecn.com/gateway/"
+    "url": "http://ripplecn.com/gateway/",
+    "accountRoot": {
+      "Account": "rnuF96W4SZoCJmbHYBFoJZpR8eCaxNvekK",
+      "Balance": "60097979",
+      "Domain": "726970706C65636E2E636F6D",
+      "EmailHash": "38126A3B9117A4EEB43DD1F3F87FC3EE",
+      "Flags": 8912896,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 8,
+      "PreviousTxnID": "32F7AA75534E646D1FB2F9AFBE859E611B3165AE5E276C696F4AC87394E11BDC",
+      "PreviousTxnLgrSeq": 63478885,
+      "Sequence": 1490,
+      "index": "62C6E424E3ADA427B61F46642B4C917E1EFE2C56B5598690F37FE8252F866EE8",
+      "urlgravatar": "http://www.gravatar.com/avatar/38126a3b9117a4eeb43dd1f3f87fc3ee"
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:54.553265Z"
   },
   {
     "name": "RippleFund",
     "address": "rE7CNMbxwvTQrqSEjbcXCrqeN6EZga1ApU",
-    "url": "http://ripplefund.me/"
+    "url": "http://ripplefund.me/",
+    "accountRoot": {
+      "Account": "rE7CNMbxwvTQrqSEjbcXCrqeN6EZga1ApU",
+      "Balance": "72362355",
+      "Flags": 0,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 8,
+      "PreviousTxnID": "86F36A5FCDDDFAD5FB17F17600585BDDBC753CF252EAEFD4B7BC561B7A01E1C1",
+      "PreviousTxnLgrSeq": 63412542,
+      "Sequence": 384,
+      "index": "6AF092602DC32532953B7BF6143C437D846B40E1526D84597F22AB8A686539D9",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:54.805808Z"
   },
   {
     "name": "SnapSwap",
     "description": "https://btc2ripple.com/",
     "address": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q",
-    "url": "https://www.snapswap.us/"
+    "url": "https://www.snapswap.us/",
+    "accountRoot": {
+      "Account": "rMwjYedjc7qqtKYVLiAccJSmCwih4LnE2q",
+      "Balance": "2868386791",
+      "Domain": "62746332726970706C652E636F6D",
+      "EmailHash": "960ACC7252ABF4A7EA59E9A118BCBA96",
+      "Flags": 9043968,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 19,
+      "PreviousTxnID": "8D30EA6F389DB9A9D698FD93CAE33C9F47D7875AB1A42AAA60B08EBA5FE6FF38",
+      "PreviousTxnLgrSeq": 63531337,
+      "Sequence": 371,
+      "TransferRate": 1002000000,
+      "index": "A3C1529122C3DBD6C96B9DF009FF4896023FE6B4E05A508B1E81F3DCD9A6274B",
+      "urlgravatar": "http://www.gravatar.com/avatar/960acc7252abf4a7ea59e9a118bcba96"
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:54.984806Z"
   },
   {
     "name": "TTBit",
     "address": "rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E",
-    "url": "https://bitcointalk.org/index.php?topic=149533.0"
+    "url": "https://bitcointalk.org/index.php?topic=149533.0",
+    "accountRoot": {
+      "Account": "rGwUWgN5BEg3QGNY3RX2HfYowjUTZdid3E",
+      "Balance": "199991570",
+      "Flags": 0,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 31,
+      "PreviousTxnID": "68149C63099C7DAEE362FE1B84F9D24E26A789AD21384B4CFDB997D9AB2B2AC5",
+      "PreviousTxnLgrSeq": 53260038,
+      "Sequence": 300,
+      "index": "E36E1BF26FCC532262D72FDC0BC45DC17DFBE1F94F4EA95AF3A7F999E99B7CC5",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:55.234817Z"
   },
   {
     "name": "WisePass",
     "address": "rPDXxSZcuVL3ZWoyU82bcde3zwvmShkRyF",
-    "url": "https://wisepass.com/"
+    "url": "https://wisepass.com/",
+    "accountRoot": {
+      "Account": "rPDXxSZcuVL3ZWoyU82bcde3zwvmShkRyF",
+      "Balance": "260841633",
+      "Domain": "77697365706173732E636F6D",
+      "EmailHash": "07AFB3574BD59F4A3D595F04DCD7DF93",
+      "Flags": 8519680,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 6,
+      "PreviousTxnID": "385086852A433D80D144D02DC8AB13ACA31AE8CD07A5027FF0B8E271A4BCC5CA",
+      "PreviousTxnLgrSeq": 63453121,
+      "Sequence": 64,
+      "TransferRate": 1000250000,
+      "index": "08226777784ABDB65BBFD4AA0422261450CBB800166A93E28880EDA58D9DABFC",
+      "urlgravatar": "http://www.gravatar.com/avatar/07afb3574bd59f4a3d595f04dcd7df93"
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:55.313409Z"
   },
   {
     "name": "XRP Interchange",
     "description": "deweller/wellerco https://xrptalk.org/user/803-deweller/, https://bitcointalk.org/index.php?action=profile;u=155537",
     "address": "rEUNavLM2NPpLW8dKqk3BRhXcZk5Hv7dhj",
-    "url": "http://xrpio.com/"
+    "url": "http://xrpio.com/",
+    "accountRoot": {
+      "Account": "rEUNavLM2NPpLW8dKqk3BRhXcZk5Hv7dhj",
+      "Balance": "73099807",
+      "Flags": 0,
+      "LedgerEntryType": "AccountRoot",
+      "OwnerCount": 19,
+      "PreviousTxnID": "D123CBA8BC32E5A76E35A3CCFABAB9E84632B3FD4A67D2C677AA96C5CCE37B32",
+      "PreviousTxnLgrSeq": 61165968,
+      "Sequence": 115,
+      "index": "56640A1F960BBDC88C59218DAA4498ECEC3C057DF47A230AAAF132025A9A0A10",
+      "urlgravatar": ""
+    },
+    "accountRootRetrieved": "2021-05-13T09:30:55.57197Z"
   }
 ]

@@ -1,12 +1,56 @@
 package ripplenetwork
 
+import (
+	"encoding/json"
+	"errors"
+	"io/ioutil"
+	"strings"
+	"time"
+
+	gorippled "github.com/goxrp/go-rippled"
+)
+
 type Account struct {
-	Name        string `json:"name,omitempty"`
-	Description string `json:"description,omitempty"`
-	Address     string `json:"address,omitempty"`
-	URL         string `json:"url,omitempty"`
-	FeesURL     string `json:"feesURL,omitempty"`
-	CoinistURL  string `json:"coinistURL,omitempty"`
+	Name                 string                `json:"name,omitempty"`
+	Description          string                `json:"description,omitempty"`
+	Address              string                `json:"address,omitempty"`
+	URL                  string                `json:"url,omitempty"`
+	FeesURL              string                `json:"feesURL,omitempty"`
+	CoinistURL           string                `json:"coinistURL,omitempty"`
+	AccountRoot          gorippled.AccountRoot `json:"accountRoot,omitempty"`
+	AccountRootRetrieved time.Time             `json:"accountRootRetrieved,omitempty"`
+}
+
+func (acct *Account) LoadAccountRoot() error {
+	acct.Address = strings.TrimSpace(acct.Address)
+	if len(acct.Address) == 0 {
+		return errors.New("account has no address.")
+	}
+	req := gorippled.JsonRpcRequest{
+		Method: "account_info",
+		Params: []map[string]interface{}{{
+			"account":      acct.Address,
+			"strict":       true,
+			"ledger_index": "current",
+			"queue":        true,
+		}},
+	}
+	resp, err := gorippled.DoApiJsonRpc(servers[0].JsonRpcUrl, req)
+	if err != nil {
+		return err
+	}
+	bytes, err := ioutil.ReadAll(resp.Body)
+	if err != nil {
+		return err
+	}
+	var acctInfo gorippled.AccountInfoResponse
+	err = json.Unmarshal(bytes, &acctInfo)
+	if err != nil {
+		return err
+	}
+	acct.AccountRoot = acctInfo.Result.AccountData
+	acct.AccountRootRetrieved = time.Now().UTC()
+	return nil
 }
 
 // https://bitcoin.stackexchange.com/questions/16936/is-there-a-comprehensive-list-of-gateways-ious-and-fees-associated-with-using-t

@@ -11,6 +11,13 @@ import (
 
 func main() {
 	gateways := ripplenetwork.Gateways()
+	for i, gw := range gateways {
+		err := gw.LoadAccountRoot()
+		if err != nil {
+			log.Fatal(err)
+		}
+		gateways[i] = gw
+	}
 	bytes, err := json.MarshalIndent(gateways, "", "  ")
 	if err != nil {
 		log.Fatal(err)
