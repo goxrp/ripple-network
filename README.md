@@ -5,13 +5,17 @@
 [![Docs][docs-godoc-svg]][docs-godoc-url]
 [![License][license-svg]][license-url]
 
-This package provides a list of public Rippled servers and Gateways.
+This package provides a list of public Rippled servers and Gateways for machine accessible use.
+
+See the following thread for more info:
+
+https://bitcoin.stackexchange.com/questions/16936/is-there-a-comprehensive-list-of-gateways-ious-and-fees-associated-with-using-t
 
 ## Gateways
 
-Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.json`](gateways.json) files. This is is built from online sources and periodically updated with AccountRoot info using the script in [`cmd/build_gateways_data/main.go`](cmd/build_gateways_data/main.go).
+Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.json`](gateways.json) files. This is is built from online sources and periodically updated with AccountRoot and Currencies info.
 
-Gateways are returned from calling the `Gateways(bool)` function.
+Gateway informatio can be programmatically accessed by calling the `Gateways(bool)` function.
 
 Gateways can be retrieved programmaticaly by calling the `Gateways()` function.
 
