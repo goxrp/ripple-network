@@ -5,19 +5,23 @@
 [![Docs][docs-godoc-svg]][docs-godoc-url]
 [![License][license-svg]][license-url]
 
-This package provides a list of public Rippled servers and Gateways for machine accessible use.
+This package provides a list of public Rippled servers and Gateways for machine accessible use in CSV, JSON and Go library formats.
 
-See the following thread for more info:
+A few gateway lists exist online but are not in formats suitable for programmtic access. See the following thread for more info:
 
 https://bitcoin.stackexchange.com/questions/16936/is-there-a-comprehensive-list-of-gateways-ious-and-fees-associated-with-using-t
 
 ## Gateways
 
-Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.json`](gateways.json) files. This is is built from online sources and periodically updated with AccountRoot and Currencies info.
+Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.json`](gateways.json) files. This is is built from online sources and periodically updated with AccountRoot and AccountCurrencies info.
 
-Gateway informatio can be programmatically accessed by calling the `Gateways(bool)` function.
+Gateway information can be programmatically accessed by calling the `Gateways(inflate bool)` function.
 
-Gateways can be retrieved programmaticaly by calling the `Gateways()` function.
+Gateway information can be loaded with up to date AccountRoot and AccountCurrencies data by calling `GatewaysInflate()`.
+
+```
+$ go-bindata -pkg ripplenetwork -ignore '(LICENSE|csv|go|md|mod|png|sum)$' .
+```
 
 ![](gateways.png)
 

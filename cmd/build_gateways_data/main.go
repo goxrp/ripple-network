@@ -15,7 +15,7 @@ import (
 )
 
 func main() {
-	gateways, err := ripplenetwork.Gateways(true)
+	gateways, err := ripplenetwork.GatewaysRebuild()
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -41,11 +41,21 @@ func main() {
 			gw.Name,
 			gw.URL,
 			gw.Address,
-			strconv.Itoa(int(gw.AccountRoot.TransferRate)),
-			strings.Join(stringsutil.SliceCondenseSpace(gw.AccountCurriencies.ReceiveCurrencies, true, true), ","),
-			strings.Join(stringsutil.SliceCondenseSpace(gw.AccountCurriencies.SendCurrencies, true, true), ","),
-			gwSet.TimeCreated.Format(time.RFC3339),
 		}
+		if gw.AccountRoot != nil {
+			row = append(row, strconv.Itoa(int(gw.AccountRoot.TransferRate)))
+		} else {
+			row = append(row, "")
+		}
+		if gw.AccountCurriencies != nil {
+			row = append(row,
+				strings.Join(stringsutil.SliceCondenseSpace(gw.AccountCurriencies.ReceiveCurrencies, true, true), ","),
+				strings.Join(stringsutil.SliceCondenseSpace(gw.AccountCurriencies.SendCurrencies, true, true), ","),
+			)
+		} else {
+			row = append(row, "", "")
+		}
+		row = append(row, gwSet.TimeCreated.Format(time.RFC3339))
 		tbl.Records = append(tbl.Records, row)
 	}
 
