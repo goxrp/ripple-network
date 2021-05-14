@@ -11,9 +11,13 @@ This package provides a list of public Rippled servers and Gateways.
 
 Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.json`](gateways.json) files. This is is built from online sources and periodically updated with AccountRoot info using the script in [`cmd/build_gateways_data/main.go`](cmd/build_gateways_data/main.go).
 
+Gateways are returned from calling the `Gateways(bool)` function.
+
 ![](gateways.png)
 
 ## Servers
+
+Servers are returned by calling the `Servers()` function.
 
 | Operator              | Network | JSON-RPC URL        | WebSocket URL                  | Notes |
 | --------------------- | ------- | ---------------------------------------- | ------------- | -------------- |
