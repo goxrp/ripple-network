@@ -15,13 +15,13 @@ Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.j
 
 ## Servers
 
-| Hostname                  | Description                  | JSON-RPC Port |
-| ------------------------- | ---------------------------- | ------------- |
-| `s1.ripple.com`           | Mainnet Public Cluster       | 51234 |
-| `xrpl.ws`                 | Mainnet Full History Cluster |  |
-| `s2.ripple.com`           | Mainnet Full History Cluster | 51234 |
-| `s.altnet.rippletest.net` | Testnet Public Cluster       | 51234 |
-| `s.devnet.rippletest.net` | Devnet Public Cluster        | 51234 |
+| Operator              | Network | JSON-RPC URL        | WebSocket URL                  | Notes |
+| --------------------- | ------- | ---------------------------------------- | ------------- | -------------- |
+| XRP Ledger Foundation | Mainnet | `https://xrpl.ws/`                       | `wss://xrpl.ws/`                 | Full history server cluster |
+| Ripple | Mainnet                | `https://s1.ripple.com:51234/`           | `wss://s1.ripple.com/`           | General purpose server cluster |
+| Ripple | Mainnet                | `https://s2.ripple.com:51234/`           | `wss://s2.ripple.com/`           | Full-history server cluster |
+| Ripple | Testnet                | `https://s.altnet.rippletest.net:51234/` | `wss://s.altnet.rippletest.net/` | Testnet public server |
+| Ripple | Mainnet                | `https://s.devnet.rippletest.net:51234/` | `wss://s.devnet.rippletest.net/` | Devnet public server |
 
 ## Testing
 
