@@ -13,11 +13,13 @@ Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.j
 
 Gateways are returned from calling the `Gateways(bool)` function.
 
+Gateways can be retrieved programmaticaly by calling the `Gateways()` function.
+
 ![](gateways.png)
 
 ## Servers
 
-Servers are returned by calling the `Servers()` function.
+Servers can be retrieved programmaticaly by calling the `Servers()` function.
 
 | Operator              | Network | JSON-RPC URL        | WebSocket URL                  | Notes |
 | --------------------- | ------- | ---------------------------------------- | ------------- | -------------- |
