@@ -1,5 +1,5 @@
 {
-  "timeCreated": "2021-05-14T05:27:08.123027Z",
+  "timeCreated": "2021-05-14T06:42:32.485396Z",
   "gateways": [
     {
       "name": "Bitstamp",
@@ -13,17 +13,17 @@
         "Flags": 9043968,
         "LedgerEntryType": "AccountRoot",
         "OwnerCount": 397,
-        "PreviousTxnID": "3002940B7FACDED73D35E26B958D776841BBDF2E6DB2F6A8A303D83A36D2CB1A",
-        "PreviousTxnLgrSeq": 63554017,
+        "PreviousTxnID": "E82FC725B9C6E8CC69E621CE71A10A8A0344FFFE2F4B27F11133E180116AE8C0",
+        "PreviousTxnLgrSeq": 63556095,
         "Sequence": 4479,
         "TransferRate": 1002000000,
         "index": "B7D526FDDF9E3B3F95C3DC97C353065B0482302500BBB8051A5C090B596C6133",
         "urlgravatar": "http://www.gravatar.com/avatar/5b33b93c7ffe384d53450fc666bb11fb"
       },
-      "accountRootRetrieved": "2021-05-14T05:26:56.58912Z",
+      "accountRootRetrieved": "2021-05-14T06:42:21.728743Z",
       "accountCurrencies": {
-        "ledger_hash": "6C4EA02C433BB38AA18692AB174A267C61AE965D5BC2150DFF950D8F388961CF",
-        "ledger_index": 63555523,
+        "ledger_hash": "A2E6BD4490144A90A77BAC2B02FE95E806829FDE1AA0185BE6E9644B01646AB6",
+        "ledger_index": 63556694,
         "receive_currencies": [
           "AUD",
           "BTC",
@@ -91,7 +91,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:26:57.203326Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:22.542378Z"
     },
     {
       "name": "Coinex",
@@ -113,10 +113,10 @@
         "index": "E93E8BC1E192CFD3B6ACC477FE7F9359447D99F7E1136EFFFD04AD8D92FB658A",
         "urlgravatar": "http://www.gravatar.com/avatar/50ed6e21f41f1c380e9a671afe1484f4"
       },
-      "accountRootRetrieved": "2021-05-14T05:26:57.481954Z",
+      "accountRootRetrieved": "2021-05-14T06:42:22.738046Z",
       "accountCurrencies": {
-        "ledger_hash": "6C4EA02C433BB38AA18692AB174A267C61AE965D5BC2150DFF950D8F388961CF",
-        "ledger_index": 63555523,
+        "ledger_hash": "3A43ECE264AA351B8E8EAA94501395AB856B11C8737F0D7905673F326B4FFBF5",
+        "ledger_index": 63556695,
         "receive_currencies": [
           "AUD",
           "BTC",
@@ -147,7 +147,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:26:57.817804Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:23.088099Z"
     },
     {
       "name": "Devcoin",
@@ -167,10 +167,10 @@
         "index": "34D7F0641A0467BC06C748101789695A0F4A16BD68FC05984ED4E2185DECC8D7",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:26:58.43262Z",
+      "accountRootRetrieved": "2021-05-14T06:42:23.187381Z",
       "accountCurrencies": {
-        "ledger_hash": "6C4EA02C433BB38AA18692AB174A267C61AE965D5BC2150DFF950D8F388961CF",
-        "ledger_index": 63555523,
+        "ledger_hash": "3A43ECE264AA351B8E8EAA94501395AB856B11C8737F0D7905673F326B4FFBF5",
+        "ledger_index": 63556695,
         "receive_currencies": [
           "DVC"
         ],
@@ -185,7 +185,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:26:58.505774Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:23.446411Z"
     },
     {
       "name": "Dividend Rippler",
@@ -204,10 +204,10 @@
         "index": "EBAB8D915FD9E2C4CEE302BC0FE94DD626EF04EE3634C74788CD4A242D662866",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:26:59.351033Z",
+      "accountRootRetrieved": "2021-05-14T06:42:23.656832Z",
       "accountCurrencies": {
-        "ledger_hash": "6AC040D74DCE461469DF1B0453EEA95FE82C3F90BF37D4133B1D1483F5FBF018",
-        "ledger_index": 63555524,
+        "ledger_hash": "3A43ECE264AA351B8E8EAA94501395AB856B11C8737F0D7905673F326B4FFBF5",
+        "ledger_index": 63556695,
         "receive_currencies": [
           "BTC",
           "LTC",
@@ -241,7 +241,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:26:59.558293Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:24.449517Z"
     },
     {
       "name": "Goodwill LETS",
@@ -260,10 +260,10 @@
         "index": "A56B415CB0B30CA99710099C34BBBED258DE51E902EE10C8FAC547FC2E072BFC",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:26:59.967978Z",
+      "accountRootRetrieved": "2021-05-14T06:42:24.550737Z",
       "accountCurrencies": {
-        "ledger_hash": "6AC040D74DCE461469DF1B0453EEA95FE82C3F90BF37D4133B1D1483F5FBF018",
-        "ledger_index": 63555524,
+        "ledger_hash": "3A43ECE264AA351B8E8EAA94501395AB856B11C8737F0D7905673F326B4FFBF5",
+        "ledger_index": 63556695,
         "receive_currencies": [
           "GDW"
         ],
@@ -273,7 +273,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:00.050935Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:24.945509Z"
     },
     {
       "name": "ICE",
@@ -291,10 +291,10 @@
         "index": "34716AEBCF2AC277F8B36952E700D22EA056DA2DA3C2CE4A49CD530903AB64E0",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:27:00.890075Z",
+      "accountRootRetrieved": "2021-05-14T06:42:25.04581Z",
       "accountCurrencies": {
-        "ledger_hash": "6AC040D74DCE461469DF1B0453EEA95FE82C3F90BF37D4133B1D1483F5FBF018",
-        "ledger_index": 63555524,
+        "ledger_hash": "3A43ECE264AA351B8E8EAA94501395AB856B11C8737F0D7905673F326B4FFBF5",
+        "ledger_index": 63556695,
         "receive_currencies": [
           "ICE"
         ],
@@ -310,7 +310,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:00.977698Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:25.325556Z"
     },
     {
       "name": "Justcoin",
@@ -330,10 +330,10 @@
         "index": "F87A51649CB5BD6B27D72AD27B8DEF062EF05E5A430DA495488C736845AC4DC5",
         "urlgravatar": "http://www.gravatar.com/avatar/a4c78f7d554325df86bc09d9a3f12e13"
       },
-      "accountRootRetrieved": "2021-05-14T05:27:01.502058Z",
+      "accountRootRetrieved": "2021-05-14T06:42:25.526667Z",
       "accountCurrencies": {
-        "ledger_hash": "6AC040D74DCE461469DF1B0453EEA95FE82C3F90BF37D4133B1D1483F5FBF018",
-        "ledger_index": 63555524,
+        "ledger_hash": "3A43ECE264AA351B8E8EAA94501395AB856B11C8737F0D7905673F326B4FFBF5",
+        "ledger_index": 63556695,
         "receive_currencies": [
           "BTC",
           "EUR",
@@ -355,7 +355,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:01.677641Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:25.921835Z"
     },
     {
       "name": "Peercover",
@@ -374,10 +374,10 @@
         "index": "EDD13DB54B62E013FB614977F5BE35F28C23E911E1EC2265E686A52D68879B1C",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:27:01.980117Z",
+      "accountRootRetrieved": "2021-05-14T06:42:26.032595Z",
       "accountCurrencies": {
-        "ledger_hash": "6AC040D74DCE461469DF1B0453EEA95FE82C3F90BF37D4133B1D1483F5FBF018",
-        "ledger_index": 63555524,
+        "ledger_hash": "E81C4604D4F0D7322470F462987D228C56476A24EB07F3006D18A89EE20D4739",
+        "ledger_index": 63556696,
         "receive_currencies": [
           "42C",
           "AUR",
@@ -471,7 +471,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:02.125533Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:26.792448Z"
     },
     {
       "name": "Ripple Israel",
@@ -491,10 +491,10 @@
         "index": "5E0B31A7AE31E6B657592B953C163271323F46B0AA2D13ED4FED502961078B5A",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:27:02.406621Z",
+      "accountRootRetrieved": "2021-05-14T06:42:26.901079Z",
       "accountCurrencies": {
-        "ledger_hash": "6AC040D74DCE461469DF1B0453EEA95FE82C3F90BF37D4133B1D1483F5FBF018",
-        "ledger_index": 63555524,
+        "ledger_hash": "E81C4604D4F0D7322470F462987D228C56476A24EB07F3006D18A89EE20D4739",
+        "ledger_index": 63556696,
         "receive_currencies": [
           "BTC",
           "BTX",
@@ -547,7 +547,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:02.577102Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:27.783158Z"
     },
     {
       "name": "Ripple Union",
@@ -568,10 +568,10 @@
         "index": "91FB2B3CE1F8204A989B0BDF65F757044F5E7F623DBDAF3CFAC9867A2F4A214E",
         "urlgravatar": "http://www.gravatar.com/avatar/25471325bb08c85dbc865e9f53d02fe0"
       },
-      "accountRootRetrieved": "2021-05-14T05:27:03.037935Z",
+      "accountRootRetrieved": "2021-05-14T06:42:28.01086Z",
       "accountCurrencies": {
-        "ledger_hash": "7D88D0FF5942D23952182D1D857284C98A6B11F82256699E4DF4D734210CA98B",
-        "ledger_index": 63555525,
+        "ledger_hash": "E81C4604D4F0D7322470F462987D228C56476A24EB07F3006D18A89EE20D4739",
+        "ledger_index": 63556696,
         "receive_currencies": [
           "BTC",
           "CAD",
@@ -593,7 +593,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:03.220352Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:28.453874Z"
     },
     {
       "name": "RippleChina",
@@ -611,10 +611,10 @@
         "index": "D9A4529146AB12ABD244CCC0ED0523CF5C6BA97043999AB27C1D4EB567929069",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:27:03.425398Z",
+      "accountRootRetrieved": "2021-05-14T06:42:28.643146Z",
       "accountCurrencies": {
-        "ledger_hash": "7D88D0FF5942D23952182D1D857284C98A6B11F82256699E4DF4D734210CA98B",
-        "ledger_index": 63555525,
+        "ledger_hash": "E81C4604D4F0D7322470F462987D228C56476A24EB07F3006D18A89EE20D4739",
+        "ledger_index": 63556696,
         "receive_currencies": [
           "BTC",
           "CNY",
@@ -693,7 +693,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:04.26949Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:29.294196Z"
     },
     {
       "name": "RippleCN",
@@ -713,10 +713,10 @@
         "index": "62C6E424E3ADA427B61F46642B4C917E1EFE2C56B5598690F37FE8252F866EE8",
         "urlgravatar": "http://www.gravatar.com/avatar/38126a3b9117a4eeb43dd1f3f87fc3ee"
       },
-      "accountRootRetrieved": "2021-05-14T05:27:04.551805Z",
+      "accountRootRetrieved": "2021-05-14T06:42:29.401484Z",
       "accountCurrencies": {
-        "ledger_hash": "7D88D0FF5942D23952182D1D857284C98A6B11F82256699E4DF4D734210CA98B",
-        "ledger_index": 63555525,
+        "ledger_hash": "E81C4604D4F0D7322470F462987D228C56476A24EB07F3006D18A89EE20D4739",
+        "ledger_index": 63556696,
         "receive_currencies": [
           "BTC",
           "CNY"
@@ -746,7 +746,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:04.759436Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:29.777423Z"
     },
     {
       "name": "RippleFund",
@@ -764,10 +764,10 @@
         "index": "6AF092602DC32532953B7BF6143C437D846B40E1526D84597F22AB8A686539D9",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:27:05.496903Z",
+      "accountRootRetrieved": "2021-05-14T06:42:29.980026Z",
       "accountCurrencies": {
-        "ledger_hash": "7D88D0FF5942D23952182D1D857284C98A6B11F82256699E4DF4D734210CA98B",
-        "ledger_index": 63555525,
+        "ledger_hash": "AB793B15BD5A100FA1C9B3EB6ACB459B023002BD818E6ABAC2E718C0EFFCA90D",
+        "ledger_index": 63556697,
         "receive_currencies": [
           "BTC",
           "CNY"
@@ -782,7 +782,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:05.690485Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:30.362235Z"
     },
     {
       "name": "SnapSwap",
@@ -804,10 +804,10 @@
         "index": "A3C1529122C3DBD6C96B9DF009FF4896023FE6B4E05A508B1E81F3DCD9A6274B",
         "urlgravatar": "http://www.gravatar.com/avatar/960acc7252abf4a7ea59e9a118bcba96"
       },
-      "accountRootRetrieved": "2021-05-14T05:27:06.113258Z",
+      "accountRootRetrieved": "2021-05-14T06:42:30.461847Z",
       "accountCurrencies": {
-        "ledger_hash": "7D88D0FF5942D23952182D1D857284C98A6B11F82256699E4DF4D734210CA98B",
-        "ledger_index": 63555525,
+        "ledger_hash": "AB793B15BD5A100FA1C9B3EB6ACB459B023002BD818E6ABAC2E718C0EFFCA90D",
+        "ledger_index": 63556697,
         "receive_currencies": [
           "BTC",
           "EUR",
@@ -854,7 +854,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:06.727528Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:30.973424Z"
     },
     {
       "name": "TTBit",
@@ -872,10 +872,10 @@
         "index": "E36E1BF26FCC532262D72FDC0BC45DC17DFBE1F94F4EA95AF3A7F999E99B7CC5",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:27:06.998709Z",
+      "accountRootRetrieved": "2021-05-14T06:42:31.080805Z",
       "accountCurrencies": {
-        "ledger_hash": "A813F80D781D21195F99EA8D3849A3DE7CE293BB84BBC8E9F466E3769F066EAB",
-        "ledger_index": 63555526,
+        "ledger_hash": "AB793B15BD5A100FA1C9B3EB6ACB459B023002BD818E6ABAC2E718C0EFFCA90D",
+        "ledger_index": 63556697,
         "receive_currencies": [
           "BTC",
           "DYM",
@@ -891,7 +891,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:07.082921Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:31.355778Z"
     },
     {
       "name": "WisePass",
@@ -912,10 +912,10 @@
         "index": "08226777784ABDB65BBFD4AA0422261450CBB800166A93E28880EDA58D9DABFC",
         "urlgravatar": "http://www.gravatar.com/avatar/07afb3574bd59f4a3d595f04dcd7df93"
       },
-      "accountRootRetrieved": "2021-05-14T05:27:07.649277Z",
+      "accountRootRetrieved": "2021-05-14T06:42:31.561926Z",
       "accountCurrencies": {
-        "ledger_hash": "A813F80D781D21195F99EA8D3849A3DE7CE293BB84BBC8E9F466E3769F066EAB",
-        "ledger_index": 63555526,
+        "ledger_hash": "AB793B15BD5A100FA1C9B3EB6ACB459B023002BD818E6ABAC2E718C0EFFCA90D",
+        "ledger_index": 63556697,
         "receive_currencies": [
           "BRL",
           "BTC",
@@ -951,7 +951,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:07.828612Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:31.974656Z"
     },
     {
       "name": "XRP Interchange",
@@ -970,10 +970,10 @@
         "index": "56640A1F960BBDC88C59218DAA4498ECEC3C057DF47A230AAAF132025A9A0A10",
         "urlgravatar": ""
       },
-      "accountRootRetrieved": "2021-05-14T05:27:08.051754Z",
+      "accountRootRetrieved": "2021-05-14T06:42:32.203277Z",
       "accountCurrencies": {
-        "ledger_hash": "A813F80D781D21195F99EA8D3849A3DE7CE293BB84BBC8E9F466E3769F066EAB",
-        "ledger_index": 63555526,
+        "ledger_hash": "AB793B15BD5A100FA1C9B3EB6ACB459B023002BD818E6ABAC2E718C0EFFCA90D",
+        "ledger_index": 63556697,
         "receive_currencies": [
           "BTC",
           "PTS"
@@ -984,7 +984,7 @@
         "status": "success",
         "validated": true
       },
-      "accountCurrenciesRetrieved": "2021-05-14T05:27:08.123027Z"
+      "accountCurrenciesRetrieved": "2021-05-14T06:42:32.485396Z"
     }
   ]
 }
