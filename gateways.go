@@ -99,7 +99,7 @@ var gateways = []Account{
 	{
 		Name:       "Coinex",
 		Address:    "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc",
-		URL:        "http://www.coinex.co.nz",
+		URL:        "http://www.coinex.co.nz/",
 		FeesURL:    "https://www.coinex.co.nz/Fees",
 		CoinistURL: "https://coinist.co/ripple/gateways/coinex/",
 	},

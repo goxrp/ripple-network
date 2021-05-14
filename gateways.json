@@ -96,7 +96,7 @@
     {
       "name": "Coinex",
       "address": "rsP3mgGb2tcYUrxiLFiHJiQXhsziegtwBc",
-      "url": "http://www.coinex.co.nz",
+      "url": "http://www.coinex.co.nz/",
       "feesURL": "https://www.coinex.co.nz/Fees",
       "coinistURL": "https://coinist.co/ripple/gateways/coinex/",
       "accountRoot": {
