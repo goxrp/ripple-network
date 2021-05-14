@@ -14,6 +14,14 @@ import (
 	"github.com/grokify/simplego/type/stringsutil"
 )
 
+/*
+
+Rebuild `bindata.go` with the following:
+
+$ go-bindata -pkg ripplenetwork -ignore '(LICENSE|csv|go|md|mod|png|sum)$' .
+
+*/
+
 func main() {
 	gateways, err := ripplenetwork.GatewaysRebuild()
 	if err != nil {

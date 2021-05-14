@@ -19,10 +19,6 @@ Gateway information can be programmatically accessed by calling the `Gateways(in
 
 Gateway information can be loaded with up to date AccountRoot and AccountCurrencies data by calling `GatewaysInflate()`.
 
-```
-$ go-bindata -pkg ripplenetwork -ignore '(LICENSE|csv|go|md|mod|png|sum)$' .
-```
-
 ![](gateways.png)
 
 ## Servers
