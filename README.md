@@ -17,13 +17,13 @@ Known gateways are listed in the [`gateways.csv`](gateways.csv) and [`gateways.j
 
 Gateway information can be programmatically accessed by calling the `Gateways(inflate bool)` function.
 
-Gateway information can be loaded with up to date AccountRoot and AccountCurrencies data by calling `GatewaysInflate()`.
+Gateway information can be loaded with up to date AccountRoot and AccountCurrencies data by calling `GatewaysRebuild()`.
 
 ![](gateways.png)
 
-## Servers
+## Rippled Servers
 
-Servers can be retrieved programmaticaly by calling the `Servers()` function.
+Rippled Servers can be retrieved programmaticaly by calling the `Servers()` function. Currently, this provides programmatic access to the server list hosted on https://xrpl.org.
 
 | Operator              | Network | JSON-RPC URL        | WebSocket URL                  | Notes |
 | --------------------- | ------- | ---------------------------------------- | ------------- | -------------- |
