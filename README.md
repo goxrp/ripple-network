@@ -33,13 +33,15 @@ Servers can be retrieved programmaticaly by calling the `Servers()` function.
 | Ripple | Testnet                | `https://s.altnet.rippletest.net:51234/` | `wss://s.altnet.rippletest.net/` | Testnet public server |
 | Ripple | Mainnet                | `https://s.devnet.rippletest.net:51234/` | `wss://s.devnet.rippletest.net/` | Devnet public server |
 
-## Testing
+### Testing
 
-### JSON RPC
+#### JSON RPC
 
-Test with the following:
+Perform a quick test with the following curl commands. The [`rippled-postman`](https://github.com/goxrp/rippled-postman) Postman Collection can also be used with Postman.
 
 ```bash
+$ curl -H 'Content-Type: application/json' -d '{"method":"server_info"}' https://xrpl.ws/
+
 $ curl -H 'Content-Type: application/json' -d '{"method":"server_info"}' https://s1.ripple.com:51234/
 
 $ curl -H 'Content-Type: application/json' -d '{"method":"server_info"}' https://s2.ripple.com:51234/
