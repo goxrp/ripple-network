@@ -19,7 +19,9 @@ Gateway information can be programmatically accessed by calling the `Gateways(in
 
 Gateway information can be loaded with up to date AccountRoot and AccountCurrencies data by calling `GatewaysRebuild()`.
 
-![](gateways.png)
+This is a [the CSV as hosted on GitHub](gateways.csv).
+
+[![](gateways.png)](gateways.csv)
 
 ## Rippled Servers
 
