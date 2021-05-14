@@ -15,17 +15,9 @@ import (
 )
 
 func main() {
-	gateways := ripplenetwork.Gateways()
-	for i, gw := range gateways {
-		err := gw.LoadAccountRoot()
-		if err != nil {
-			log.Fatal(err)
-		}
-		err = gw.LoadAccountCurrencies()
-		if err != nil {
-			log.Fatal(err)
-		}
-		gateways[i] = gw
+	gateways, err := ripplenetwork.Gateways(true)
+	if err != nil {
+		log.Fatal(err)
 	}
 	gwSet := ripplenetwork.GatewaysSet{
 		Gateways:    gateways,

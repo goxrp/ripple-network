@@ -89,8 +89,8 @@ type GatewaysSet struct {
 	Gateways    []Account `json:"gateways"`
 }
 
-func Gateways() []Account {
-	return []Account{
+func Gateways(inflate bool) ([]Account, error) {
+	gateways := []Account{
 		{
 			Name:    "Bitstamp",
 			Address: "rvYAfWj5gh67oV6fW32ZzP3Aw4Eubs59B",
@@ -185,4 +185,19 @@ func Gateways() []Account {
 			URL:         "http://xrpio.com/",
 		},
 	}
+
+	if inflate {
+		for i, gw := range gateways {
+			err := gw.LoadAccountRoot()
+			if err != nil {
+				return gateways, err
+			}
+			err = gw.LoadAccountCurrencies()
+			if err != nil {
+				return gateways, err
+			}
+			gateways[i] = gw
+		}
+	}
+	return gateways, nil
 }
