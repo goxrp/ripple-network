@@ -1,55 +1,82 @@
 package ripplenetwork
 
 import (
-	"encoding/json"
 	"errors"
-	"io/ioutil"
+	"fmt"
+	"net/http"
 	"strings"
 	"time"
 
 	gorippled "github.com/goxrp/go-rippled"
+	"github.com/grokify/simplego/net/http/httpsimple"
 )
 
 type Account struct {
-	Name                 string                `json:"name,omitempty"`
-	Description          string                `json:"description,omitempty"`
-	Address              string                `json:"address,omitempty"`
-	URL                  string                `json:"url,omitempty"`
-	FeesURL              string                `json:"feesURL,omitempty"`
-	CoinistURL           string                `json:"coinistURL,omitempty"`
-	AccountRoot          gorippled.AccountRoot `json:"accountRoot,omitempty"`
-	AccountRootRetrieved time.Time             `json:"accountRootRetrieved,omitempty"`
+	Name                        string                            `json:"name,omitempty"`
+	Description                 string                            `json:"description,omitempty"`
+	Address                     string                            `json:"address,omitempty"`
+	URL                         string                            `json:"url,omitempty"`
+	FeesURL                     string                            `json:"feesURL,omitempty"`
+	CoinistURL                  string                            `json:"coinistURL,omitempty"`
+	AccountRoot                 gorippled.AccountRoot             `json:"accountRoot,omitempty"`
+	AccountRootRetrieved        time.Time                         `json:"accountRootRetrieved,omitempty"`
+	AccountCurriencies          gorippled.AccountCurrenciesResult `json:"accountCurrencies,omitempty"`
+	AccountCurrienciesRetrieved time.Time                         `json:"accountCurrenciesRetrieved,omitempty"`
 }
 
 func (acct *Account) LoadAccountRoot() error {
 	acct.Address = strings.TrimSpace(acct.Address)
 	if len(acct.Address) == 0 {
-		return errors.New("account has no address.")
+		return errors.New("account has no address")
 	}
-	req := gorippled.JsonRpcRequest{
-		Method: "account_info",
-		Params: []map[string]interface{}{{
-			"account":      acct.Address,
-			"strict":       true,
-			"ledger_index": "current",
-			"queue":        true,
-		}},
-	}
-	resp, err := gorippled.DoApiJsonRpc(servers[0].JsonRpcUrl, req)
-	if err != nil {
-		return err
-	}
-	bytes, err := ioutil.ReadAll(resp.Body)
-	if err != nil {
-		return err
-	}
+
+	req := httpsimple.SimpleRequest{
+		Method: http.MethodPost,
+		URL:    servers[0].JsonRpcUrl,
+		Body:   gorippled.AccountInfoRequestSimple(acct.Address),
+		IsJSON: true}
+
 	var acctInfo gorippled.AccountInfoResponse
-	err = json.Unmarshal(bytes, &acctInfo)
+
+	sc := httpsimple.NewSimpleClient(nil, servers[0].JsonRpcUrl)
+
+	_, resp, err := sc.DoJSON(req, &acctInfo)
 	if err != nil {
 		return err
+	} else if resp.StatusCode != 200 {
+		return fmt.Errorf("rippled response status_code [%d]", resp.StatusCode)
 	}
+
 	acct.AccountRoot = acctInfo.Result.AccountData
 	acct.AccountRootRetrieved = time.Now().UTC()
+	return nil
+}
+
+func (acct *Account) LoadAccountCurrencies() error {
+	acct.Address = strings.TrimSpace(acct.Address)
+	if len(acct.Address) == 0 {
+		return errors.New("account has no address")
+	}
+
+	req := httpsimple.SimpleRequest{
+		Method: http.MethodPost,
+		URL:    servers[0].JsonRpcUrl,
+		Body:   gorippled.AccountCurrenciesRequestSimple(acct.Address),
+		IsJSON: true}
+
+	var res gorippled.AccountCurrenciesResponse
+
+	sc := httpsimple.NewSimpleClient(nil, servers[0].JsonRpcUrl)
+
+	_, resp, err := sc.DoJSON(req, &res)
+	if err != nil {
+		return err
+	} else if resp.StatusCode != 200 {
+		return fmt.Errorf("rippled response status_code [%d]", resp.StatusCode)
+	}
+
+	acct.AccountCurriencies = res.Result
+	acct.AccountCurrienciesRetrieved = time.Now().UTC()
 	return nil
 }
 

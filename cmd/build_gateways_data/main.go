@@ -17,6 +17,10 @@ func main() {
 		if err != nil {
 			log.Fatal(err)
 		}
+		err = gw.LoadAccountCurrencies()
+		if err != nil {
+			log.Fatal(err)
+		}
 		gateways[i] = gw
 	}
 	gwSet := ripplenetwork.GatewaysSet{

@@ -65,8 +65,8 @@ github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/
 github.com/gorilla/css v1.0.0/go.mod h1:Dn721qIggHpt4+EFCcTLTU/vk5ySda2ReITrtgBl60c=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
-github.com/goxrp/go-rippled v0.6.1 h1:W4sSQTBjl107bw8LZrDBO+fbKbDYqE55jZRq6u6Dq44=
-github.com/goxrp/go-rippled v0.6.1/go.mod h1:kblg6r0TipstaloJM7uGE+2TafZyG7QXln0hwjg1rLo=
+github.com/goxrp/go-rippled v0.8.0 h1:vCWDQO0Mj9T9qCApHaYpvuklSMo2+hCv3Mt2AicvAj4=
+github.com/goxrp/go-rippled v0.8.0/go.mod h1:kblg6r0TipstaloJM7uGE+2TafZyG7QXln0hwjg1rLo=
 github.com/grokify/base36 v1.0.2/go.mod h1:A0Pzze8AN96L1APGKrZu4Qtuyvcf3tf4oQZfGbdhMPc=
 github.com/grokify/bitcoinmath v0.0.0-20171208015713-6ef5b53bef73/go.mod h1:FrFkuJ9mhcBuUZBBN5m3J5ihG6cvRsiBHwSXO15kOPc=
 github.com/grokify/simplego v0.26.2 h1:WZmtsBGNlsnfz+ndQPLIfGC00bZtD8ToGt28ZHx2UA8=
