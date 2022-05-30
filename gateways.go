@@ -9,7 +9,7 @@ import (
 	"time"
 
 	gorippled "github.com/goxrp/go-rippled"
-	"github.com/grokify/simplego/net/http/httpsimple"
+	"github.com/grokify/gohttp/httpsimple"
 )
 
 type Account struct {

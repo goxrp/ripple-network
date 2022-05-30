@@ -1,11 +1,11 @@
 module github.com/goxrp/ripple-network
 
-go 1.13
+go 1.16
 
 require (
-	github.com/getkin/kin-openapi v0.60.0
-	github.com/goxrp/go-rippled v0.8.0
-	github.com/grokify/gocharts v1.3.0
-	github.com/grokify/simplego v0.26.2
-
+	github.com/getkin/kin-openapi v0.94.0
+	github.com/goxrp/go-rippled v0.8.1
+	github.com/grokify/gocharts/v2 v2.7.3
+	github.com/grokify/gohttp v0.2.1
+	github.com/grokify/mogo v0.39.6
 )

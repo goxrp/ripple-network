@@ -10,8 +10,8 @@ import (
 	"time"
 
 	ripplenetwork "github.com/goxrp/ripple-network"
-	"github.com/grokify/gocharts/data/table"
-	"github.com/grokify/simplego/type/stringsutil"
+	"github.com/grokify/gocharts/v2/data/table"
+	"github.com/grokify/mogo/type/stringsutil"
 )
 
 /*
@@ -39,7 +39,7 @@ func main() {
 		log.Fatal(err)
 	}
 
-	tbl := table.NewTable()
+	tbl := table.NewTable("Gateways")
 	tbl.Columns = []string{
 		"Name", "URL", "Address", "TransferRate", "CurrenciesReceive", "CurrenciesSend", "TimeRetrieved",
 	}
@@ -64,7 +64,7 @@ func main() {
 			row = append(row, "", "")
 		}
 		row = append(row, gwSet.TimeCreated.Format(time.RFC3339))
-		tbl.Records = append(tbl.Records, row)
+		tbl.Rows = append(tbl.Rows, row)
 	}
 
 	err = tbl.WriteCSV("gateways.csv")
