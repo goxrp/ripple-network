@@ -33,13 +33,13 @@ func (acct *Account) LoadAccountRoot() error {
 
 	req := httpsimple.SimpleRequest{
 		Method: http.MethodPost,
-		URL:    servers[0].JsonRpcUrl,
+		URL:    servers[0].JSONRPCURL,
 		Body:   gorippled.AccountInfoRequestSimple(acct.Address),
 		IsJSON: true}
 
 	var acctInfo gorippled.AccountInfoResponse
 
-	sc := httpsimple.NewSimpleClient(nil, servers[0].JsonRpcUrl)
+	sc := httpsimple.NewSimpleClient(nil, servers[0].JSONRPCURL)
 
 	_, resp, err := sc.DoJSON(req, &acctInfo)
 	if err != nil {
@@ -61,13 +61,13 @@ func (acct *Account) LoadAccountCurrencies() error {
 
 	req := httpsimple.SimpleRequest{
 		Method: http.MethodPost,
-		URL:    servers[0].JsonRpcUrl,
+		URL:    servers[0].JSONRPCURL,
 		Body:   gorippled.AccountCurrenciesRequestSimple(acct.Address),
 		IsJSON: true}
 
 	var res gorippled.AccountCurrenciesResponse
 
-	sc := httpsimple.NewSimpleClient(nil, servers[0].JsonRpcUrl)
+	sc := httpsimple.NewSimpleClient(nil, servers[0].JSONRPCURL)
 
 	_, resp, err := sc.DoJSON(req, &res)
 	if err != nil {
