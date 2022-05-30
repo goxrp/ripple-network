@@ -34,7 +34,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = ioutil.WriteFile("gateways.json", bytes, 0644)
+	err = ioutil.WriteFile("gateways.json", bytes, 0600)
 	if err != nil {
 		log.Fatal(err)
 	}
