@@ -55,8 +55,8 @@ github.com/grokify/gohttp v0.2.1/go.mod h1:lvWGlBA0PeelznQ5fFlr9GRbNOCsY86q5dmY9
 github.com/grokify/gohttp v0.2.4 h1:XAMClaxgTKdQ7YuOiqB2f2RTOS6Zy7hqkf65FSy4Z9I=
 github.com/grokify/gohttp v0.2.4/go.mod h1:q2y1z6P6OXEwh44br49ALvGE9s5hLrwGZrQvVjyos2o=
 github.com/grokify/mogo v0.39.6/go.mod h1:Jsx1wHRAl7SkBK0lBB7N3wUEWHeC/hBTEs4I4rVgmTI=
-github.com/grokify/mogo v0.49.1 h1:YseoSOBnBUthHG/U58uB9m4shg/SASD/AT/yxVjjikw=
-github.com/grokify/mogo v0.49.1/go.mod h1:M3e00ewDsq0bdBuePtxdssDlVyO7T1Ph2YpDz9f+ExE=
+github.com/grokify/mogo v0.50.0 h1:ta17r5ZScbA4wmA7mShYJn6+VufbtOw8ySaHmK01+rg=
+github.com/grokify/mogo v0.50.0/go.mod h1:KB1pM9/r/vdGX1PrTo310pbw7I5QmuAkBQrsajIHPDo=
 github.com/huandu/xstrings v1.3.2/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
 github.com/huandu/xstrings v1.4.0 h1:D17IlohoQq4UcpqD7fDk80P7l+lwAmlFaBHgOipl2FU=
 github.com/huandu/xstrings v1.4.0/go.mod h1:y5/lhBue+AyNmUVz9RLU9xbLR0o4KIIExikq4ovT0aE=
@@ -168,7 +168,7 @@ golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1 h1:k/i9J1pBpvlfR+9QsetwPyERs
 golang.org/x/exp v0.0.0-20230522175609-2e198f4a06a1/go.mod h1:V1LtkGg67GoY2N1AnLN78QLrzxkLyJw7RJb1gzOOz9w=
 golang.org/x/image v0.0.0-20220413100746-70e8d0d3baa9/go.mod h1:023OzeP/+EPmXeapQh35lcL3II3LrY8Ic+EFFKVhULM=
 golang.org/x/image v0.5.0/go.mod h1:FVC7BI/5Ym8R25iw5OLsgshdUBbT1h5jZTpA+mvAdZ4=
-golang.org/x/image v0.6.0 h1:bR8b5okrPI3g/gyZakLZHeWxAR8Dn5CyxXv1hLH5g/4=
+golang.org/x/image v0.8.0 h1:agUcRXV/+w6L9ryntYYsF2x9fQTMd4T8fiiYXAVW6Jg=
 golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4/go.mod h1:jJ57K6gSWd91VN4djpZkiMVwK6gcyfeH4XE8wZrZaV4=
 golang.org/x/mod v0.8.0/go.mod h1:iBbtSCu2XBx23ZKBPSOrRkjjQPZFPuis4dIYUhu/chs=
 golang.org/x/net v0.0.0-20190620200207-3b0461eec859/go.mod h1:z5CRVTTTmAJ677TzLLGU+0bjPO0LkuOLi4/5GtJWs/s=
