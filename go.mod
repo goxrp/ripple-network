@@ -7,7 +7,7 @@ require (
 	github.com/goxrp/go-rippled v0.8.1
 	github.com/grokify/gocharts/v2 v2.9.1
 	github.com/grokify/gohttp v0.2.5
-	github.com/grokify/mogo v0.53.0
+	github.com/grokify/mogo v0.54.0
 )
 
 require (
