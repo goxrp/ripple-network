@@ -7,7 +7,7 @@ require (
 	github.com/goxrp/go-rippled v0.8.1
 	github.com/grokify/gocharts/v2 v2.9.1
 	github.com/grokify/gohttp v0.2.5
-	github.com/grokify/mogo v0.53.0
+	github.com/grokify/mogo v0.55.0
 )
 
 require (
@@ -40,7 +40,7 @@ require (
 	golang.org/x/crypto v0.12.0 // indirect
 	golang.org/x/exp v0.0.0-20230817173708-d852ddb80c63 // indirect
 	golang.org/x/net v0.14.0 // indirect
-	golang.org/x/text v0.12.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	gopkg.in/oleiade/reflections.v1 v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
