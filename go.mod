@@ -6,7 +6,7 @@ go 1.21
 
 require (
 	github.com/getkin/kin-openapi v0.120.0
-	github.com/goxrp/go-rippled v0.8.1
+	github.com/goxrp/go-rippled v0.8.2
 	github.com/grokify/gocharts/v2 v2.15.1
 	github.com/grokify/gohttp v0.2.7
 	github.com/grokify/mogo v0.60.1
@@ -20,7 +20,7 @@ require (
 	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/go-openapi/jsonpointer v0.20.0 // indirect
 	github.com/go-openapi/swag v0.22.4 // indirect
-	github.com/gorilla/mux v1.8.0 // indirect
+	github.com/gorilla/mux v1.8.1 // indirect
 	github.com/huandu/xstrings v1.4.0 // indirect
 	github.com/iancoleman/strcase v0.3.0 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect

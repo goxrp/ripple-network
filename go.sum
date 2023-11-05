@@ -40,8 +40,12 @@ github.com/google/gofuzz v1.0.0/go.mod h1:dBl0BpW6vV/+mYPU4Po3pmUjxk6FQPldtuIdl/
 github.com/gorilla/css v1.0.0/go.mod h1:Dn721qIggHpt4+EFCcTLTU/vk5ySda2ReITrtgBl60c=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
+github.com/gorilla/mux v1.8.1 h1:TuBL49tXwgrFYWhqrNgrUNEY92u81SPhu7sTdzQEiWY=
+github.com/gorilla/mux v1.8.1/go.mod h1:AKf9I4AEqPTmMytcMc0KkNouC66V3BtZ4qD5fmWSiMQ=
 github.com/goxrp/go-rippled v0.8.1 h1:U0A5m6DhQlUvCZQIdbcVUUUedUFkU0Eio51G4VeDdFs=
 github.com/goxrp/go-rippled v0.8.1/go.mod h1:CQKgNBqdEHVz9SrCTnODEs+VQF5DMX2gajP1yB/cnQQ=
+github.com/goxrp/go-rippled v0.8.2 h1:oG9/8LI+QhVLE+tu22a6ulH/bdHmQ4WYPN0LKHhmZsc=
+github.com/goxrp/go-rippled v0.8.2/go.mod h1:0z59tqErMg5gjQQmMPi4q03ESfW1LKdg33Zj3qdfcg4=
 github.com/grokify/base36 v1.0.5/go.mod h1:L+1aaUBGfp5Ctar7KCS5G9uPABo1Ccu1Ct2iQAuhOJ4=
 github.com/grokify/bitcoinmath v0.1.0/go.mod h1:Y8OyDefB55NHGzi+uJshYmE4Hn5juIQqJahsQJN5o2k=
 github.com/grokify/gocharts/v2 v2.15.1 h1:hAdNGjGfcxaNnpI5goPGejODJ3TOcM+uuqQzU04gTsk=
