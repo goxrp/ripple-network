@@ -53,8 +53,8 @@ $ curl -H 'Content-Type: application/json' -d '{"method":"server_info"}' https:/
 $ curl -H 'Content-Type: application/json' -d '{"method":"server_info"}' https://s.devnet.rippletest.net:51234/ --insecure
 ```
 
- [build-status-svg]: https://github.com/goxrp/ripple-network/workflows/test/badge.svg?branch=master
- [build-status-url]: https://github.com/goxrp/ripple-network/actions
+ [build-status-svg]: https://github.com/goxrp/ripple-network/actions/workflows/test.yaml/badge.svg
+ [build-status-url]: https://github.com/goxrp/ripple-network/actions/workflows/test.yaml
  [goreport-svg]: https://goreportcard.com/badge/github.com/goxrp/ripple-network
  [goreport-url]: https://goreportcard.com/report/github.com/goxrp/ripple-network
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/goxrp/ripple-network
