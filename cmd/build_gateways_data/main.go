@@ -3,8 +3,8 @@ package main
 import (
 	"encoding/json"
 	"fmt"
-	"io/ioutil"
 	"log"
+	"os"
 	"strconv"
 	"strings"
 	"time"
@@ -34,7 +34,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	err = ioutil.WriteFile("gateways.json", bytes, 0600)
+	err = os.WriteFile("gateways.json", bytes, 0600)
 	if err != nil {
 		log.Fatal(err)
 	}
