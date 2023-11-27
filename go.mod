@@ -9,7 +9,7 @@ require (
 	github.com/goxrp/go-rippled v0.8.2
 	github.com/grokify/gocharts/v2 v2.15.1
 	github.com/grokify/gohttp v0.2.7
-	github.com/grokify/mogo v0.60.1
+	github.com/grokify/mogo v0.61.0
 )
 
 require (
@@ -17,7 +17,6 @@ require (
 	github.com/apex/gateway v1.1.2 // indirect
 	github.com/aws/aws-lambda-go v1.41.0 // indirect
 	github.com/buaazp/fasthttprouter v0.1.1 // indirect
-	github.com/buger/jsonparser v1.1.1 // indirect
 	github.com/go-openapi/jsonpointer v0.20.0 // indirect
 	github.com/go-openapi/swag v0.22.4 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
@@ -35,7 +34,6 @@ require (
 	github.com/rogpeppe/go-internal v1.11.0 // indirect
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.51.0 // indirect
-	github.com/valyala/fastjson v1.6.4 // indirect
 	github.com/valyala/quicktemplate v1.7.0 // indirect
 	github.com/xuri/efp v0.0.0-20231025114914-d1ff6096ae53 // indirect
 	github.com/xuri/excelize/v2 v2.8.0 // indirect
@@ -44,6 +42,5 @@ require (
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa // indirect
 	golang.org/x/net v0.18.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
-	gopkg.in/oleiade/reflections.v1 v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
