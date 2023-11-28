@@ -5,7 +5,7 @@ go 1.21
 // toolchain go1.21.1
 
 require (
-	github.com/getkin/kin-openapi v0.120.0
+	github.com/getkin/kin-openapi v0.121.0
 	github.com/goxrp/go-rippled v0.8.2
 	github.com/grokify/gocharts/v2 v2.15.2
 	github.com/grokify/gohttp v0.2.7
