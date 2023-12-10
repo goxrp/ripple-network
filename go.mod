@@ -9,7 +9,7 @@ require (
 	github.com/goxrp/go-rippled v0.8.2
 	github.com/grokify/gocharts/v2 v2.15.2
 	github.com/grokify/gohttp v0.2.7
-	github.com/grokify/mogo v0.61.0
+	github.com/grokify/mogo v0.61.1
 )
 
 require (
