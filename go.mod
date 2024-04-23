@@ -1,15 +1,16 @@
 module github.com/goxrp/ripple-network
 
 go 1.21
+toolchain go1.22.2
 
 // toolchain go1.21.1
 
 require (
 	github.com/getkin/kin-openapi v0.122.0
 	github.com/goxrp/go-rippled v0.8.2
-	github.com/grokify/gocharts/v2 v2.16.2
+	github.com/grokify/gocharts/v2 v2.18.5
 	github.com/grokify/gohttp v0.2.7
-	github.com/grokify/mogo v0.62.6
+	github.com/grokify/mogo v0.63.8
 )
 
 require (
@@ -35,12 +36,12 @@ require (
 	github.com/valyala/bytebufferpool v1.0.0 // indirect
 	github.com/valyala/fasthttp v1.51.0 // indirect
 	github.com/valyala/quicktemplate v1.7.0 // indirect
-	github.com/xuri/efp v0.0.0-20231025114914-d1ff6096ae53 // indirect
-	github.com/xuri/excelize/v2 v2.8.0 // indirect
-	github.com/xuri/nfp v0.0.0-20230919160717-d98342af3f05 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/exp v0.0.0-20231219180239-dc181d75b848 // indirect
-	golang.org/x/net v0.19.0 // indirect
+	github.com/xuri/efp v0.0.0-20240408161823-9ad904a10d6d // indirect
+	github.com/xuri/excelize/v2 v2.8.1 // indirect
+	github.com/xuri/nfp v0.0.0-20240318013403-ab9948c2c4a7 // indirect
+	golang.org/x/crypto v0.22.0 // indirect
+	golang.org/x/exp v0.0.0-20240409090435-93d18d7e34b8 // indirect
+	golang.org/x/net v0.24.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
