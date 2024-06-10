@@ -1,6 +1,7 @@
 module github.com/goxrp/ripple-network
 
 go 1.21
+toolchain go1.22.3
 
 // toolchain go1.21.1
 
@@ -9,7 +10,7 @@ require (
 	github.com/goxrp/go-rippled v0.8.2
 	github.com/grokify/gocharts/v2 v2.16.2
 	github.com/grokify/gohttp v0.2.7
-	github.com/grokify/mogo v0.62.6
+	github.com/grokify/mogo v0.64.4
 )
 
 require (
@@ -20,7 +21,7 @@ require (
 	github.com/go-openapi/jsonpointer v0.20.0 // indirect
 	github.com/go-openapi/swag v0.22.4 // indirect
 	github.com/gorilla/mux v1.8.1 // indirect
-	github.com/huandu/xstrings v1.4.0 // indirect
+	github.com/huandu/xstrings v1.5.0 // indirect
 	github.com/iancoleman/strcase v0.3.0 // indirect
 	github.com/invopop/yaml v0.2.0 // indirect
 	github.com/josharian/intern v1.0.0 // indirect
@@ -38,9 +39,9 @@ require (
 	github.com/xuri/efp v0.0.0-20231025114914-d1ff6096ae53 // indirect
 	github.com/xuri/excelize/v2 v2.8.0 // indirect
 	github.com/xuri/nfp v0.0.0-20230919160717-d98342af3f05 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
-	golang.org/x/exp v0.0.0-20231219180239-dc181d75b848 // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/crypto v0.24.0 // indirect
+	golang.org/x/exp v0.0.0-20240604190554-fc45aab8b7f8 // indirect
+	golang.org/x/net v0.26.0 // indirect
+	golang.org/x/text v0.16.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
