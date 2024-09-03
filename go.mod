@@ -7,9 +7,9 @@ toolchain go1.22.5
 require (
 	github.com/getkin/kin-openapi v0.127.0
 	github.com/goxrp/go-rippled v0.8.2
-	github.com/grokify/gocharts/v2 v2.19.8
+	github.com/grokify/gocharts/v2 v2.20.0
 	github.com/grokify/gohttp v0.2.7
-	github.com/grokify/mogo v0.64.9
+	github.com/grokify/mogo v0.64.10
 )
 
 require (
