@@ -7,7 +7,7 @@ require (
 	github.com/goxrp/go-rippled v0.8.3
 	github.com/grokify/gocharts/v2 v2.27.0
 	github.com/grokify/gohttp v0.2.7
-	github.com/grokify/mogo v0.74.1
+	github.com/grokify/mogo v0.74.5
 )
 
 require (
@@ -50,10 +50,10 @@ require (
 	github.com/xuri/efp v0.0.1 // indirect
 	github.com/xuri/excelize/v2 v2.10.1 // indirect
 	github.com/xuri/nfp v0.0.2-0.20250530014748-2ddeb826f9a9 // indirect
-	golang.org/x/crypto v0.50.0 // indirect
-	golang.org/x/exp v0.0.0-20260410095643-746e56fc9e2f // indirect
-	golang.org/x/image v0.39.0 // indirect
-	golang.org/x/net v0.53.0 // indirect
-	golang.org/x/sys v0.43.0 // indirect
-	golang.org/x/text v0.36.0 // indirect
+	golang.org/x/crypto v0.51.0 // indirect
+	golang.org/x/exp v0.0.0-20260508232706-74f9aab9d74a // indirect
+	golang.org/x/image v0.40.0 // indirect
+	golang.org/x/net v0.54.0 // indirect
+	golang.org/x/sys v0.44.0 // indirect
+	golang.org/x/text v0.37.0 // indirect
 )
